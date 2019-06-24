@@ -1,0 +1,7 @@
+---
+applications:
+- name: sidecar-demo
+  path: ./frontend-app
+  buildpacks:
+    - java_buildpack_offline
+    - ruby_buildpack
